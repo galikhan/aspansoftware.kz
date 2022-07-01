@@ -1,0 +1,42 @@
+baseURL = "https://aspansoftware.kz"
+languageCode = "en-US"
+title = "Aspansoftware.kz - we write products"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/avatar.webp"
+  author = "Galikhan Khamitov"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Telegram      = "galixan"
+  Github        = "galikhan"
+  Email         = "galikhan.khamitov@gmail.com"
+#  Twitter       = "username"
+  LinkedIn      = "username"
+  Stackoverflow = "users/2311161/glx"
+#  Medium        = "username"
+#  RSS           = "/blog/index.xml"
+
+## Main Menu
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "testimonials"
+  identifier = "testimonials"
+  weight = 300
+  url = "/testimonials/"
